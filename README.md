@@ -3,6 +3,8 @@ FOND-SAT with optimized incremental encoding.
 Install pysat (https://github.com/pysathq/pysat) to get it working
 > $ pip install python-sat[pblib,aiger]
 
+For better results, configure cadical in unsat mode when using Pysat and use option -chrono=0.
+
 Original README below.
 
 # FOND-SAT
